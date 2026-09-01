@@ -1,6 +1,7 @@
 import 'package:fluent_ui/fluent_ui.dart';
 
 import '../dashboard/dashboard_page.dart';
+import '../processes/process_manager_page.dart';
 import '../settings/settings_page.dart';
 import '../utilities/utilities_page.dart';
 
@@ -28,17 +29,18 @@ class _AppShellState extends State<AppShell> {
       ),
       pane: NavigationPane(
         selected: _selectedIndex,
-        onChanged: (index) {
-          setState(() {
-            _selectedIndex = index;
-          });
-        },
+        onChanged: (index) => setState(() => _selectedIndex = index),
         displayMode: PaneDisplayMode.auto,
         items: [
           PaneItem(
             icon: const Icon(FluentIcons.home),
             title: const Text('Dashboard'),
             body: const DashboardPage(),
+          ),
+          PaneItem(
+            icon: const Icon(FluentIcons.processing),
+            title: const Text('Processes'),
+            body: const ProcessManagerPage(),
           ),
           PaneItem(
             icon: const Icon(FluentIcons.toolbox),
