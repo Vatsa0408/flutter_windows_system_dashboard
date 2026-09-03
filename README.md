@@ -22,21 +22,27 @@ Windows System Dashboard brings commonly used system information and developer-f
 ## Features
 
 ### System Overview
+
 View important system information from a single dashboard instead of switching between multiple Windows tools.
 
 ### Real-Time Performance Monitoring
+
 Track current CPU and memory usage through live dashboard indicators.
 
 ### Historical Performance Charts
+
 Observe recent performance trends and understand how system resource usage changes over time.
 
 ### Process Explorer
+
 Discover running processes and inspect useful process information from inside the application.
 
 ### Developer Tools Detection
+
 Quickly identify installed development tools and verify whether commonly used tools are available on the machine.
 
 ### Utility Search
+
 Search for useful Windows utilities and launch or access them more efficiently.
 
 ## Screenshots
@@ -45,12 +51,24 @@ Screenshots will make the project easier to understand at a glance. Add images t
 
 ```html
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" width="800" alt="Windows System Dashboard overview">
+  <img
+    src="docs/screenshots/dashboard.png"
+    width="800"
+    alt="Windows System Dashboard overview"
+  />
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/performance.png" width="390" alt="Historical performance charts">
-  <img src="docs/screenshots/developer-tools.png" width="390" alt="Developer tools detection">
+  <img
+    src="docs/screenshots/performance.png"
+    width="390"
+    alt="Historical performance charts"
+  />
+  <img
+    src="docs/screenshots/developer-tools.png"
+    width="390"
+    alt="Developer tools detection"
+  />
 </p>
 ```
 
